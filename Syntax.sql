@@ -1,4 +1,4 @@
-/*Sintaxis*/
+/*Syntax*/
 
 CREATE DATATABASE mibasedeatos;
 
