@@ -1,6 +1,6 @@
 /*Syntax*/
 
-CREATE DATATABASE mibasedeatos;
+CREATE DATATABASE my_database;
 
-CREATE DATATABASE mibasedeatos; CREATE TABLE mitabla1;
+CREATE DATATABASE my_database; CREATE TABLE my_table1;
 
