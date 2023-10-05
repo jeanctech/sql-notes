@@ -1,6 +1,9 @@
 /*Syntax*/
 
-CREATE DATATABASE my_database;
+Create data_base my_database;
 
-CREATE DATATABASE my_database; CREATE TABLE my_table1;
+Create my_database;
+
+Create Table my_table1;
+
 
