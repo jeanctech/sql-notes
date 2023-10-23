@@ -1,77 +1,77 @@
-# Sql - Documentation
+# Sql - Documentación
 
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
-## What is Sql?
+## ¿Qué es Sql?
 
-Sql - Structured Query Language is a domain-specific language designed to manage and retrieve information from relational database management systems. One of its main characteristics is the use of algebra and relational calculus to carry out queries in order to easily retrieve information from databases, as well as make changes to them
+Sql es un Lenguaje de consulta estructurado es un lenguaje de dominio específico diseñado para administrar y recuperar información de sistemas de administración de bases de datos relacionales. Una de sus principales características es el uso del álgebra y el cálculo relacional para realizar consultas con el fin de recuperar fácilmente información de las bases de datos, así como realizar cambios en las mismas.
 
-## Index
+## Índice
 
-* [Introduction](Introduction.sql)
-* [Lesson 1 - What is it]()
-* [Lesson 2 - History]()
-* [Lesson 3 - Context]()
-* [Lesson 4 - Syntax]()
-* [Lesson 5 - Select Declaration]()
-* [Lesson 6 - Declaration From]()
-* [Lesson 7 - Where Statement]()
-* [Lesson 8 - Basic Consultations]()
-* [Lesson 9 - Select]()
-* [Lesson 10 - Filter Results with Where]()
-* [Lesson 11 - Sort Results with Order By]()
-* [Lesson 12 - Limit Results with Limit]()
-* [Lesson 13 - Logical Operators]()
-* [Lesson 14 - Comparison Operators]()
-* [Lesson 15 - Sql Functions]()
-* [Lesson 16 - Aggregation Functions]()
-* [Lesson 17 - String Functions]()
-* [Lesson 18 - Date Functions]()
-* [Lesson 19 - Join]()
-* [Lesson 20 - Union]()
-* [Lesson 21 - Subqueries]()
-* [Lesson 22 - Insert Into]()
-* [Lesson 23 - Delete From]()
-* [Lesson 24 - Indices and Optimization]()
-* [Lesson 25 - Indices]()
-* [Lesson 26 - Manage Indices]()
-* [Lesson 27 - Query Optimization]()
-* [Lesson 28 - Transaction Concepts]()
-* [Lesson 29 - Commit and Rollback]()
-* [Lesson 30 - Conclusions]()
-* [Next steps]()
+* [Introducción](Introducción.sql)
+* [Lección 1 - Usos](Usos.sql)
+* [Lección 2 - Historia](Historia.sql)
+* [Lección 3 - Contexto](Contexto.sql)
+* [Lección 4 - Sintaxis](Sintaxis.sql)
+* [Lección 5 - Declaraciónes](Declaraciones.sql)
+* [Lección 6 - Declaraciónes Basicas](Declaraciones-Basicas.sql)
+* [Lección 7 - Consultas](Consultas.sql)
+* [Lección 8 - Consultas Básicas](Consultas-Basicas.sql)
+* [Lección 9 - Selecciones](Selecciones.sql)
+* [Lección 10 - Filtrar Resultados](Filtrar-Resultados.sql)
+* [Lección 11 - Ordenar Resultados](Ordenar-Resultados.sql)
+* [Lección 12 - Limitar Resultados](Limitar-Resultados.sql)
+* [Lección 13 - Operadores Lógicos](Operadores-Logicos.sql)
+* [Lección 14 - Operadores de Comparación](Operadores-de-Comparacion.sql)
+* [Lección 15 - Funciones de Sql](Funciones-de-Sql.sql)
+* [Lección 16 - Funciones de Agregación](Funciones-de-Agregación.sql)
+* [Lección 17 - Funciones de Cadena](Funciones-de-Cadena.sql)
+* [Lección 18 - Funciones de Fecha](Funciones-de-Fecha.sql)
+* [Lección 19 - Unir](Unir.sql)
+* [Lección 20 - Uniónes](Uniones.sql)
+* [Lección 21 - Subconsultas](Subconsultas.sql)
+* [Lección 22 - Insertacion](Insertacion.sql)
+* [Lección 23 - Eliminacion](Eliminacion.sql)
+* [Lección 24 - Índices](Indices.sql)
+* [Lección 25 - Índices y Optimización](Indices-y-Optimizaciones.sql)
+* [Lección 26 - Administrar Índices](Administrar-Indices.sql)
+* [Lección 27 - Optimización de Consultas](Optimización-de-Consultas.sql)
+* [Lección 28 - Conceptos de Transacciones](Conceptos-de-Transacciones.sql)
+* [Lección 29 - Confirmar y Revertir](Confirmar-y-Revertir.sql)
+* [Lección 30 - Conclusiones](Conclusiones.sql)
+* [Próximos Pasos](Próximos-Pasos.sql)
 
-## Introduction
+## Introducción
 
-Originally based on relational algebra and relational calculus, Sql consists of a data definition language, a data manipulation language, and a data control language. The scope of Sql includes data insertion, queries, updates and deletions, schema creation and modification, and data access control. Also Sql is sometimes described as a declarative language, it also includes procedural elements
+Originalmente basado en álgebra relacional y cálculo relacional, Sql consta de un lenguaje de definición de datos, un lenguaje de manipulación de datos y un lenguaje de control de datos. El alcance de Sql incluye inserción de datos, consultas, actualizaciones y eliminaciones, creación y modificación de esquemas y control de acceso a datos. Además, Sql a veces se describe como un lenguaje declarativo y también incluye elementos de procedimiento.
 
-## Important information and frequently asked questions
+## Información importante y preguntas frecuentes
 
-Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And after that I don't rule out adding new lessons in the future, but I think that for the moment it can serve as a basis for anyone who wants to start learning this language.
+Actualmente el curso está en proceso. Se han iniciado los bloques básico, intermedio y backend, y ese era el objetivo inicial del proyecto. Y después no descarto añadir nuevas lecciones en el futuro, pero creo que de momento puede servir de base para cualquiera que quiera empezar a aprender este idioma.
 
-* As soon as the course continues, I will update the repository and notify the networks.
-Thank you very much for all the support shown!
+*En cuanto continúe el curso actualizaré el repositorio y avisaré a las redes.
+¡Muchas gracias por todo el apoyo mostrado!
 
-## Links of Interest
+## Enlaces de interés
 
-* [Sql official website](https://www.w3schools.com/sql/sql_quickref.asp)
+* [Sitio web oficial de SQL](https://www.w3schools.com/sql/sql_quickref.asp)
 
-* [Official Sql tutorial in Spanish](https://www.w3schools.com/sql/sql_examples.asp)
+* [Tutorial oficial de Sql en español](https://www.w3schools.com/sql/sql_examples.asp)
 
-* [30 Days of Sql Repo](https://github.com/TryGhost/node-sqlite3)
+* [30 días de repositorio Sql](https://github.com/TryGhost/node-sqlite3)
 
-* [Teaching game to learn Sql](https://www.sqlteaching.com/)
+* [Juego didáctico para aprender Sql](https://www.sqlteaching.com/)
 
-* [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
+* [Visual Studio Code](https://code.visualstudio.com/) - El editor que estoy usando
 
-* [Sql Lite](https://www.sqlite.org/index.html) - SqlLite
+* [Sql Lite](https://www.sqlite.org/index.html)-SqlLite
 
-* [My Sql](https://www.mysql.com/) - MySql
+* [Mi Sql](https://www.mysql.com/) - MySql
 
-* [Postgres Sql](https://www.postgresql.org/) - PostgresSql
+* [PostgresSql](https://www.postgresql.org/) - PostgresSql
 
 ##
 
-#### You can support my work by "☆Star" the repo or nominate me for a "GitHub Star". Thank you!
+#### Puedes apoyar mi trabajo "☆Star" en el repositorio o nominarme para una "Estrella de GitHub". ¡Gracias!
 
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
