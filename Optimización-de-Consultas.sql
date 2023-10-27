@@ -1,1 +1,0 @@
-/* Optmizacion de Consultas */

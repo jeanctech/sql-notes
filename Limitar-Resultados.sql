@@ -1,1 +1,0 @@
-/* Limitar Resultados */
