@@ -1,4 +1,4 @@
-/* Basic Declarations in Sql */
+/* Declarations in Sql*/
 
 Basic statements in SQL are commands that are used to perform various operations on a
 database. Below are some of the most common and essential Sql statements:
@@ -45,8 +45,8 @@ condition that indicates which records will be deleted.
     DELETE FROM table_name WHERE condition;
     ```
 
-6. **ALTER TABLE**: This statement allows modifications to be made to an existing table,
-such as adding, modifying or deleting columns. Also used to add restrictions.
+6. **ALTER TABLE**: This statement allows modifications to be made to an existing table, such as adding,
+modify or delete columns. Also used to add restrictions.
 
     ```sql
     ALTER TABLE table_name
@@ -86,4 +86,4 @@ These are some of the most basic and fundamental Sql statements used to create,
 modify, query and delete data in a database. Sql statements allow you to manage and
 manipulate information in the database effectively. Note that the syntaxes and
 Specific features may vary depending on the database management system you are using.
-using (e.g. MySql, PostgreSql, Sql Server, Oracle, etc.).
+using (e.g. MySQL, PostgreSQL, Sql Server, Oracle, etc.).
