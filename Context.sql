@@ -10,12 +10,12 @@ run in the context of a specific database, meaning they affect tables and
 data within that database.
 
 2. **Schema**: Within a database, objects such as tables, views, and stored procedures
-They are organized in diagrams. The schema in which a SQL statement is executed can affect how it
+They are organized in diagrams. The schema in which a Sql statement is executed can affect how it
 the sentence is resolved and what objects are affected.
 
 3. **Transactions**: Sql statements can be executed in the context of a transaction. The
 Transactions guarantee atomicity, consistency, isolation and durability
-(ACID properties) of Sql operations.
+(Acid properties) of Sql operations.
 
 4. **Permissions and security**: Sql context is also related to security. Sql statements
 They can only be run if the user running them has the appropriate permissions to do so.
@@ -24,10 +24,10 @@ objects.
 
 5. **Server Settings**: The database server itself has settings that affect
 the Sql context. These settings can impact performance, memory,
-storage and other aspects of SQL query processing.
+storage and other aspects of Sql query processing.
 
-6. **SQL language and dialect**: SQL is a standard language for database management, but
-Each database management system (Dbms) can have its own SQL dialect with extensions or
+6. **Sql language and dialect**: Sql is a standard language for database management, but
+Each database management system (Dbms) can have its own Sql dialect with extensions or
 variations. The Sql context may vary depending on the Dbms used.
 
 7. **Integrity rules and restrictions**: Databases can define integrity rules and restrictions.

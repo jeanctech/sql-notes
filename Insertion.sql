@@ -5,10 +5,8 @@ using Sql, I can provide you with a brief description of how a statement is perf
 insertion. In Sql, the `Insert Into` statement is used to add new records to a table.
 Here is a basic example of how it is used:
 
-```sql
 Insert Into table_name (column1, column2, column3, ...)
 Values (value1, value2, value3, ...);
-```
 
 - `table_name` is the name of the table into which you want to insert data.
 - `column1, column2, column3, ...` are the names of the columns you want to insert values into.
@@ -17,10 +15,8 @@ Values (value1, value2, value3, ...);
 For example, if you have a table called "employees" with columns "first name," "last name," and "age," you can
 insert a new employee as follows:
 
-```sql
 Insert Into employees (first name, last name, age)
 Values ('Juan', 'Pérez', 30);
-```
 
 This statement will insert a new record into the "employees" table with the provided values.
 

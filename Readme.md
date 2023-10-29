@@ -64,11 +64,11 @@ Thank you very much for all the support shown!
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [Sql Lite](https://www.sqlite.org/index.html)-SqlLite
+* [Sql Lite](https://www.sqlite.org/index.html)-Sqlite
 
 * [My Sql](https://www.mysql.com/) - MySql
 
-* [PostgresSql](https://www.postgresql.org/) - PostgresSql
+* [PostgreSql](https://www.postgresql.org/) - PostgreSql
 
 ##
 

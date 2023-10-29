@@ -7,29 +7,21 @@ use these clauses:
 
 **Limit clause (used in MySql, PostgreSql, Sqlite, etc.)**:
 
-```sql
 Select * From table_name
 Limit_number_of_records;
-```
 
 For example, to select the first 10 records from a table called "customers":
 
-```sql
 Select * From clients
 Limit 10;
-```
 
 **Top Clause (used in Sql Server)**:
 
-```sql
 Select Top number_of_records * From table_name;
-```
 
 To select the first 5 records of a table called "products" in Sql Server:
 
-```sql
 Select Top 5 * From products;
-```
 
 In Sql Server, you can use `Top` to limit the results. However, keep in mind that in this
 case, you cannot use a variable or an expression to specify the number of records, as you do

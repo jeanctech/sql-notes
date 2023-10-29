@@ -16,8 +16,8 @@ certain filters.
 3. **Data Aggregation**: Conclusions may involve data aggregation, such as counting the number
 of records that meet certain conditions or calculate average values.
 
-4. **Relationships between tables**: Sql allows you to perform queries on multiple tables and find relationships
-between them. Conclusions may include results from table joins and joins that reveal
+4. **Relationships between tables**: Sql allows you to perform queries on multiple tables and find
+relationships between them. Conclusions may include results from table joins and joins that reveal
 relevant information.
 
 5. **Trends and patterns**: By analyzing data series over time, you can identify

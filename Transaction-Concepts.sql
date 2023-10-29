@@ -3,9 +3,9 @@
 In SQL, a transaction is a set of SQL operations that are executed together as a
 atomic unit, meaning they are executed in their entirety or not executed at all. The
 Transactions are used to ensure the integrity and consistency of data in a database.
-Here are some key concepts related to transactions in SQL.
+Here are some key concepts related to transactions in Sql.
 
-1. **Transaction**: A transaction is a sequence of one or more SQL operations that are executed as a
+1. **Transaction**: A transaction is a sequence of one or more Sql operations that are executed as a
 unit. Each transaction must comply with the ACID principle (Atomicity, Consistency, Isolation and
 Durability).
 

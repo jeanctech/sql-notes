@@ -1,6 +1,6 @@
 /*Data in Sql*/
 
-In SQL, data is the information that is stored and manipulated in a database. Data in Sql
+In Sql, data is the information that is stored and manipulated in a database. Data in Sql
 They are organized into tables, and each table consists of rows and columns that contain specific values.
 The basic concepts related to data in Sql are described below.
 
@@ -40,10 +40,10 @@ Sql. They are used to perform more complex operations on data.
 10. **Views**: Views are predefined queries that display a selection of data from one or more
 boards. They are used to simplify and abstract the complexity of queries.
 
-11. **NULL data**: Sql allows the use of null values (NULL) to represent the absence of data in
-a column. NULL values indicate that a value is not known or has not been set for that column.
+11. **Null data**: Sql allows the use of null values (Null) to represent the absence of data in
+a column. Null values indicate that a value is not known or has not been set for that column.
 
-Data in SQL is stored in a structured way and can be queried and manipulated using statements
+Data in Sql is stored in a structured way and can be queried and manipulated using statements
 Sql. The database provides a framework for organizing, managing, and retrieving data in a manner
 efficient and accurate. The structure of the data, the relationships between tables and the constraints are
 fundamental to guarantee the integrity and consistency of data in a database.

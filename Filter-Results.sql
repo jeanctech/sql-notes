@@ -4,11 +4,9 @@ To filter results in SQL, you use the `Where` clause in a `Select` statement. Th
 `Where` allows you to specify a condition that determines which rows of a table will be retrieved as
 query result. Here is a basic example of how to filter results in Sql.
 
-```sql
-SELECT columns
-FROM table_name
-WHERE condition;
-```
+Select columns
+From table_name
+Where condition;
 
 - `columns`: You can specify the columns you want to select or use `*` to select
 all columns.
@@ -20,38 +18,30 @@ Below, I present examples of how to filter results in Sql:
 
 **Example 1**: Select all employees from the "employees" table whose age is greater than or equal to 30.
 
-```sql
-SELECT *
-FROM employees
-WHERE age >= 30;
-```
+Select *
+From employees
+Where age >= 30;
 
 **Example 2**: Select the name and grade of the students from the "students" table that
 have obtained a grade higher than 90 on the mathematics exam.
 
-```sql
-SELECT name, rating
-FROM students
-WHERE subject = 'Mathematics' AND grade > 90;
-```
+Select name, rating
+From students
+Where subject = 'Mathematics' AND grade > 90;
 
 **Example 3**: Select the products from the "products" table that have a price less than $50 and
 They are in stock.
 
-```sql
-SELECT name, price
-FROM products
-WHERE price < 50 AND stock > 0;
-```
+Select name, price
+From products
+Where price < 50 AND stock > 0;
 
 **Example 4**: Select customers from the "customers" table that have names starting with
-letter a".
+letter a.
 
-```sql
-SELECT *
-FROM clients
-WHERE name LIKE 'A%';
-```
+Select *
+From clients
+Where name Like 'A%';
 
 In the last example, the `Like` operator with the pattern `'A%'` is used to select all
 customers whose names begin with the letter "A." The percentage sign `%` is used as a wildcard

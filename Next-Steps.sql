@@ -1,6 +1,6 @@
 /* Next Steps in Sql */
 
-The next steps you should take in your SQL learning depend on your objectives and level of knowledge.
+The next steps you should take in your Sql learning depend on your objectives and level of knowledge.
 current knowledge. Here are some suggestions for what you could do next:
 
 1. **Practice Basic Queries**: If you are new to Sql, spend time practicing basic queries.
@@ -25,18 +25,18 @@ real. This will give you practical experience and allow you to face real challen
 of specific data, such as MySql, PostgreSql, Sql Server or Oracle, according to your needs and preferences.
 Each of them has its own characteristics and syntax.
 
-7. **Advanced SQL Language**: Investigate the advanced features of SQL, such as aggregation functions,
+7. **Advanced Sql Language**: Investigate the advanced features of Sql, such as aggregation functions,
 windows and set operations. These skills are valuable in creating more queries.
 sophisticated.
 
 8. **Learn Sql NoSql and NewSql**: In addition to relational databases, consider learning about
-NoSql and NewSql databases, as they are relevant in today's world of technology.
+NoSql and NewSql databases, as they are relevant in todays world of technology.
 
 9. **Use Database Administration Tools**: Familiarize yourself with database management tools.
 database administration that facilitates the management and monitoring of databases.
 
 10. **Participate in Online Communities and Courses**: Join online forums and communities related to
-SQL and databases. Additionally, you can take online courses or attend classes if you want further education.
+Sql and databases. Additionally, you can take online courses or attend classes if you want further education.
 structured.
 
 11. **Develop Personal Projects**: An excellent way to apply your knowledge is to create your
@@ -44,7 +44,7 @@ own projects. You can develop web applications, data tracking systems or any oth
 thing that interests you.
 
 12. **Certifications**: If you plan to work in the field of databases or database administration
-data, consider obtaining recognized certifications in SQL or a database management system
+data, consider obtaining recognized certifications in Sql or a database management system
 specific.
 
 Remember that learning SQL is a continuous process. The more you practice and work with bases of

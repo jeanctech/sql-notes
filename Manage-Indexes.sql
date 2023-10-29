@@ -1,16 +1,14 @@
 /*! Manage Indexes in Sql */
 
-Managing indexes in a SQL database is an important part of optimizing database performance.
+Managing indexes in a Sql database is an important part of optimizing database performance.
 queries. Indexes help speed data recovery by providing quick access to
 rows in a table based on the values in one or more columns. Here are some concepts and tasks
-Common issues related to index management in SQL.
+Common issues related to index management in Sql.
 
 1. Create an index:
     - You can create an index on a table using the Sql Create Index statement. For example:
 
-      ```sql
       Create Index idx_index_name On table_name (column_name);
-      ```
 
 2. Types of indexes:
     - Database management systems (Dbms) offer various types of indexes, such as indexes
@@ -20,9 +18,7 @@ Common issues related to index management in SQL.
 3. Delete an index:
     - If an index is no longer needed, you can delete it with the Drop Index statement:
 
-      ```sql
       Drop Index index_name;
-      ```
 
 4. Reorganize or rebuild indexes:
     - Over time, indexes can become fragmented and reduce their efficiency. Can

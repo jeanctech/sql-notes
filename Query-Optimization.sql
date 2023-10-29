@@ -1,6 +1,6 @@
 /* Query Optimization in Sql */
 
-Query optimization is a fundamental process to improve the performance of SQL queries,
+Query optimization is a fundamental process to improve the performance of Sql queries,
 in a database. An efficient query can make a big difference in speed and
 efficiency of an application. Below are some strategies and practices to optimize
 Sql queries.
@@ -56,6 +56,6 @@ Sql queries.
 
 Query optimization is an ongoing and often database-specific process that requires
 constant analysis and adjustments. The choice of the appropriate optimization strategy will depend on the basis
-of data you are using and the complexity of the queries that you need to improve. It's fundamental
+of data you are using and the complexity of the queries that you need to improve. Its fundamental
 understand how the database management system works and how queries affect the
 overall system performance.

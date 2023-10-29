@@ -14,11 +14,9 @@ subqueries:
     Example: Select all employees whose salaries are greater than the average salary of the company
     company.
 
-    ```sql
     Select name, salary
     From employees
-    Where salary > (SELECT AVG(salary) From employees);
-    ```
+    Where salary > (Select Avg(salary) From employees);
 
 2. **Subquery in a From clause**:
 
@@ -27,13 +25,11 @@ subqueries:
 
     Example: Select the departments along with the number of employees in each department.
 
-    ```sql
     Select d.name As department, t.number_employees
     From departments d
     Left Join (Select department_id, Count(*) As number_employees From employees Group By
     department_id) t
-    ON d.id = t.department_id;
-    ```
+    On d.id = t.department_id;
 
 3. **Subquery in a Select clause**:
 
@@ -42,10 +38,8 @@ subqueries:
 
     Example: Show the name of all employees along with the minimum salary in the company.
 
-    ```sql
-    Select name, (Select Min(salary) From employees) AS minimum_salary
+    Select name, (Select Min(salary) From employees) As minimum_salary
     From employees;
-    ```
 
 4. **Subquery in a Having clause**:
 
@@ -54,14 +48,12 @@ subqueries:
 
     Example: Select the departments with an average salary greater than 50000.
 
-    ```sql
     Select department_id
     From employees
     Group By department_id
     Having Avg(salary) > (Select 50000);
-    ```
 
-Subqueries are a powerful tool in SQL and allow you to perform more complex queries and
+Subqueries are a powerful tool in Sql and allow you to perform more complex queries and
 conditionals. It is important to ensure that a subquery returns a single value or a single row
 when used in a `Where` or `Select` clause. They can also be useful for making
 comparisons between data in different tables and perform calculations based on results from other
