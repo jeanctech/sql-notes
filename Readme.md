@@ -1,8 +1,10 @@
 # Sql - Documentation
 
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+[![Sql](https://img.shields.io/badge/MySQL-8.0+-f29221?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)](https://mysql.com)
+[![Sql](https://img.shields.io/badge/PostgreSQL-16+-699eca?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=101010)](https://postgresql.org)
+[![ChatGpt](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
-## What is SQL?
+## What is Sql?
 
 Sql is a Structured Query Language is a domain-specific language designed to manage and retrieve information from relational database management systems. One of its main features is the use of algebra and relational calculus to perform queries in order to easily retrieve information from databases, as well as make changes to them.
 
@@ -64,7 +66,7 @@ Thank you very much for all the support shown!
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [Sql Lite](https://www.sqlite.org/index.html)-Sqlite
+* [Sql Lite](https://www.sqlite.org/index.html) - SqLite
 
 * [My Sql](https://www.mysql.com/) - MySql
 
