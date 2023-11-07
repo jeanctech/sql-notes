@@ -10,38 +10,38 @@ Sql is a Structured Query Language is a domain-specific language designed to man
 
 ## Index
 
-* [Introduction](Introduction.sql)
-* [Lesson 1 - Uses](Uses.sql)
-* [Lesson 2 - History](History.sql)
-* [Lesson 3 - Context](Context.sql)
-* [Lesson 4 - Syntax](Syntax.sql)
-* [Lesson 5 - Declarations](Declarations.sql)
-* [Lesson 6 - Basic Declarations](Basic-Declarations.sql)
-* [Lesson 7 - Queries](Queries.sql)
-* [Lesson 8 - Basic Queries](Basic-Queries.sql)
-* [Lesson 9 - Selections](Selections.sql)
-* [Lesson 10 - Filter Results](Filter-Results.sql)
-* [Lesson 11 - Sort Results](Sort-Results.sql)
-* [Lesson 12 - Limit Results](Limit-Results.sql)
-* [Lesson 13 - Logical Operators](Logical-Operators.sql)
-* [Lesson 14 - Comparison Operators](Comparison-Operators.sql)
-* [Lesson 15 - Sql Functions](Sql-Functions.sql)
-* [Lesson 16 - Aggregation Functions](Aggregation-Functions.sql)
-* [Lesson 17 - String Functions](String-Functions.sql)
-* [Lesson 18 - Date Functions](Date-Functions.sql)
-* [Lesson 19 - Join](Join.sql)
-* [Lesson 20 - Unions](Unions.sql)
-* [Lesson 21 - Subqueries](Subqueries.sql)
-* [Lesson 22 - Insertion](Insertion.sql)
-* [Lesson 23 - Elimination](Elimination.sql)
-* [Lesson 24 - Indices](Indices.sql)
-* [Lesson 25 - Indices and Optimization](Indices-and-Optimizations.sql)
-* [Lesson 26 - Manage Indexes](Manage-Indexes.sql)
-* [Lesson 27 - Query Optimization](Query-Optimization.sql)
-* [Lesson 28 - Transaction Concepts](Transaction-Concepts.sql)
-* [Lesson 29 - Comfirm and Revert](Confirm-and-Revert.sql)
-* [Lesson 30 - Conclusions](Conclusions.sql)
-* [Next Steps](Next-Steps.sql)
+* [Introduction - Sql ](Introduction.sql)
+* [Lesson 1 - Uses - Sql ](Uses.sql)
+* [Lesson 2 - History - Sql ](History.sql)
+* [Lesson 3 - Context - Sql ](Context.sql)
+* [Lesson 4 - Syntax - Sql ](Syntax.sql)
+* [Lesson 5 - Declarations - Sql](Declarations.sql)
+* [Lesson 6 - Basic Declarations - Sql](Basic-Declarations.sql)
+* [Lesson 7 - Queries - Sql](Queries.sql)
+* [Lesson 8 - Basic Queries - Sql](Basic-Queries.sql)
+* [Lesson 9 - Selections - Sql](Selections.sql)
+* [Lesson 10 - Filter Results - Sql](Filter-Results.sql)
+* [Lesson 11 - Sort Results - Sql](Sort-Results.sql)
+* [Lesson 12 - Limit Results - Sql](Limit-Results.sql)
+* [Lesson 13 - Logical Operators - Sql](Logical-Operators.sql)
+* [Lesson 14 - Comparison Operators - Sql](Comparison-Operators.sql)
+* [Lesson 15 - Functions - Sql](Sql-Functions.sql)
+* [Lesson 16 - Aggregation Functions - Sql](Aggregation-Functions.sql)
+* [Lesson 17 - String Functions - Sql](String-Functions.sql)
+* [Lesson 18 - Date Functions - Sql](Date-Functions.sql)
+* [Lesson 19 - Join - Sql](Join.sql)
+* [Lesson 20 - Unions - Sql](Unions.sql)
+* [Lesson 21 - Subqueries - Sql](Subqueries.sql)
+* [Lesson 22 - Insertion - Sql](Insertion.sql)
+* [Lesson 23 - Elimination - Sql](Elimination.sql)
+* [Lesson 24 - Indices - Sql](Indices.sql)
+* [Lesson 25 - Indices and Optimization - Sql](Indices-and-Optimizations.sql)
+* [Lesson 26 - Manage Indexes - Sql](Manage-Indexes.sql)
+* [Lesson 27 - Query Optimization - Sql](Query-Optimization.sql)
+* [Lesson 28 - Transaction Concepts - Sql](Transaction-Concepts.sql)
+* [Lesson 29 - Comfirm and Revert - Sql](Confirm-and-Revert.sql)
+* [Lesson 30 - Conclusions - Sql](Conclusions.sql)
+* [Next Steps - Sql](Next-Steps.sql)
 
 ## Introduction
 
@@ -56,19 +56,19 @@ Thank you very much for all the support shown!
 
 ## Links of interest
 
-* [Sql official website](https://www.w3schools.com/sql/sql_quickref.asp)
+* [Sql Official Website](https://www.w3schools.com/sql/sql_quickref.asp)
 
-* [Official Sql tutorial in Spanish](https://www.w3schools.com/sql/sql_examples.asp)
+* [Official Sql in Spanish](https://www.w3schools.com/sql/sql_examples.asp)
 
-* [30 days of Sql repository](https://github.com/TryGhost/node-sqlite3)
+* [30 Days of Sql Repository](https://github.com/TryGhost/node-sqlite3)
 
-* [Educational game to learn Sql](https://www.sqlteaching.com/)
+* [Game to learn Sql](https://www.sqlteaching.com/)
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [Sql Lite](https://www.sqlite.org/index.html) - SqLite
+* [SqLite](https://www.sqlite.org/index.html) - SqLite
 
-* [My Sql](https://www.mysql.com/) - MySql
+* [MySql](https://www.mysql.com/) - MySql
 
 * [PostgreSql](https://www.postgresql.org/) - PostgreSql
 
