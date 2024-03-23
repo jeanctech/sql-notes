@@ -3,7 +3,7 @@
 /* Syntax in Sql refers to the rules and conventions that must be followed when writing Sql commands.
 to interact with a database. Here is an overview of basic Sql syntax. */
 
---! 1. Sql Commands
+--? 1. Sql Commands
 
 -- Sql is mainly composed of commands that are used to perform actions on a data base. Some of the most
 -- common commands include:
@@ -19,19 +19,19 @@ to interact with a database. Here is an overview of basic Sql syntax. */
     - And many other commands to perform specific tasks.
 */
 
---! 2. Keywords and Capitalization
+--? 2. Keywords and Capitalization
 
 /* Sql keywords, such as Select, From, Where, Insert Into, etc., are usually capitalized for easy
 identification in queries. However, Sql is mostly case insensitive, which means that "Select" and
 "select" are considered equivalent in most database management systems. */
 
---! 3. Table and column names
+--? 3. Table and column names
 
 /* Table and column names are usually in lower case or in capital letters, and it is recommended to be
 consistent in the choice of naming convention. Some Database management systems, such as PostgreSql, are
 case-sensitive table and column names, while others, such as MySql, are not. */
 
---! 4. **Comments
+--? 4. **Comments
 
 /* You can include comments in your queries to document the code. In Sql, the Single-line comments begin
 with `--`, while multi-line comments are usually between `/*` and `*/`. */
@@ -47,13 +47,13 @@ with `--`, while multi-line comments are usually between `/*` and `*/`. */
     multiline in Sql.
     */
 
---! 5. Text Strings
+--? 5. Text Strings
 
 /* Text strings must be enclosed in quotes, such as 'this is a string'. The exact syntax of strings may
 vary depending on the database management system. Some systems allow the use of single or double quotes,
 while others may have specific rules. */
 
---! 6. Semicolon
+--? 6. Semicolon
 
 /* In Sql, it is common to end each statement with a semicolon (`;`). This delimits one statement from the
 next, especially when multiple statements are executed in a single call. */

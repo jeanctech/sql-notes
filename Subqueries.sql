@@ -5,7 +5,7 @@ other larger queries. They are used to perform a query based on the results of a
 can be used in various parts of a main query, such as a `Select`, `From`, `Where`, or `Having` clause.
 Here I show you how they work and how to write subqueries. */
 
---! 1. Subquery in a Where clause
+--? 1. Subquery in a Where clause
 
 /*
     A subquery in a `Where` clause is used to filter results based on the result of
@@ -19,7 +19,7 @@ Here I show you how they work and how to write subqueries. */
     From employees
     Where salary > (Select Avg(salary) From employees);
 
---! 2. Subquery in a From clause
+--? 2. Subquery in a From clause
 
     /* A subquery in a `From` clause is used to create a temporary table that can be used
     in the main query.
@@ -32,7 +32,7 @@ Here I show you how they work and how to write subqueries. */
     department_id) t
     On d.id = t.department_id;
 
---! 3. Subquery in a Select clause
+--? 3. Subquery in a Select clause
 
     /* A subquery in a `Select` clause is used to obtain a value to be displayed in the
     results column.
@@ -42,7 +42,7 @@ Here I show you how they work and how to write subqueries. */
     Select name, (Select Min(salary) From employees) As minimum_salary
     From employees;
 
---! 4. Subquery in a Having clause
+--? 4. Subquery in a Having clause
 
     /* A subquery in a `Having` clause is used to filter results from a group in a query
     with `Group By`.

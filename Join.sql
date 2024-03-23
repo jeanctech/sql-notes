@@ -27,7 +27,7 @@ handled. They have no matches in the joined tables.
 
 --* Here are examples of each type of union
 
---! 1. **Inner Join (Joinn)
+--? 1. **Inner Join (Joinn)
 
 -- Returns only the records that have matches in both tables.
 
@@ -35,7 +35,7 @@ handled. They have no matches in the joined tables.
     From employees
     Join departments On employees.department_id = departments.id;
 
---! 2. **Left Join (Left Outer Join)
+--? 2. **Left Join (Left Outer Join)
 
 /* Returns all the records in the left table and the matching records from the table on the right. The
 records in the left table without matches are populated with null values. */
@@ -44,7 +44,7 @@ records in the left table without matches are populated with null values. */
     From clients
     Left Join orders On customers.id = orders.customer_id;
 
---! 3. Right Join (Right Outer Join)
+--? 3. Right Join (Right Outer Join)
 
 /* Similar to Left Join, but returns all records in the table on the right and the matching records from
 the table on the left. */
@@ -53,7 +53,7 @@ the table on the left. */
     From products
     Right Join sales On products.id = sales.product_id;
 
---! 4. Full Join (Full Outer Join)
+--? 4. Full Join (Full Outer Join)
 
 /* Returns all records from both tables and fills with values null where there are no matches. */
 

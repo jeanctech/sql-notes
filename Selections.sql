@@ -18,7 +18,7 @@ specify individual columns separated by commas.
 specified one condition, the query will select all records in the table.
 */
 
---! Examples:
+--? Examples:
 
 -- 1. To select all records from a table called "customers":
 

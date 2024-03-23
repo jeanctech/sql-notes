@@ -5,7 +5,7 @@ a fundamental feature for working with bases. relational data and allow records 
 be related using one or more columns common. There are several types of joins in Sql, but the most common
 joins are. */
 
---! 1. Join (Inner Join or EquiJoin)
+--? 1. Join (Inner Join or EquiJoin)
 
 /* Returns only the records that have matches in both tables. In other words, only records where the
 values in the specified columns match between the tables being joined. */
@@ -16,7 +16,7 @@ values in the specified columns match between the tables being joined. */
     From employees
     Join departments On employees.department_id = departments.id;
 
---! 2. Left Join (or Left Outer Join)
+--? 2. Left Join (or Left Outer Join)
 
 /* Returns all records from the left table (the first mentioned) and the matching records from the right
 table (the second mentioned). If there is not matches in the right table, null values are returned. */
@@ -27,7 +27,7 @@ table (the second mentioned). If there is not matches in the right table, null v
     From clients
     Left Join orders On customers.id = orders.customer_id;
 
---! 3. Right Join (or Right Outer Join)
+--? 3. Right Join (or Right Outer Join)
 
 /* Similar to Left Join, but returns all records in the right table and the matching records from the left
 table. Records in the left table that have no matches are filled with null values. */
@@ -38,7 +38,7 @@ table. Records in the left table that have no matches are filled with null value
     From products
     Right Join sales On products.id = sales.product_id;
 
---! 4. Full Join (or Full Outer Join)
+--? 4. Full Join (or Full Outer Join)
 
 -- Returns all records from both tables and fills with values null where there are no matches.
 
@@ -48,7 +48,7 @@ table. Records in the left table that have no matches are filled with null value
     From suppliers
     Full Join products On suppliers.id = products.supplier_id;
 
---! 5. Self Join
+--? 5. Self Join
 
 /* Used when you need to join a table with itself. This can be useful for model hierarchical relationships
 or other cases where you need to relate records within it board. */

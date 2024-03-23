@@ -14,19 +14,19 @@ This condition will be removed.
 
 -- * Below are examples of deleting data in Sql *
 
---! Example 1
+--? Example 1
 
 -- Delete a specific record from the "employees" table where the employee Id is 101.
 
 Delete From employees Where id = 101;
 
---! Example 2
+--? Example 2
 
 -- Delete all employees who are under 25 years old from the "employees" table.
 
 Delete From employees Where age < 25;
 
---! Example 3
+--? Example 3
 
 -- Delete all records from the "products" table where the price is equal to 0 (possibly to remove invalid
 -- products).

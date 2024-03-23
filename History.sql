@@ -11,29 +11,29 @@ access and manipulate data in relational databases. */
 /* Over the years, Sql has evolved and become a widely accepted standard for
 relational database management. Here are some important milestones in the history of Sql. */
 
---! 1. 1970s
+--? 1. 1970s
 
 /* Ibm developed the first system based on the relational data model, called System R. They also presented
 Sequel (Structured English Query Language), a language that laid the foundation for Sql. The name Sequel
 later became Sql due to trademark issues. */
 
---! 2. 1980s
+--? 2. 1980s
 
 /* Several companies developed relational database management systems (Rdbms) based on Sql, such as
 Oracle, Ingres and Sybase. The American National Standards Institute (Ansi) started to standardize Sql
 in this decade. */
 
---! 3. 1990s
+--? 3. 1990s
 
 /* Sql became an Ansi standard and later an Iso standard. Relational databases and Sql became widely
 popular in business and It applications software. */
 
---! 4. 2000s
+--? 4. 2000s
 
 /* With the rise of the web and the need for online databases, systems emerged more web-oriented
 relational database management tools, such as MySql and PostgreSql. */
 
---! 5. 2010s and beyond
+--? 5. 2010s and beyond
 
 /* Sql continues to be a fundamental part of data management in a variety of applications and systems.
 In addition to traditional Rdbms systems, Sql is used in NoSql and NewSql systems. */

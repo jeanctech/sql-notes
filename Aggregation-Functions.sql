@@ -5,19 +5,19 @@ resulting value. These functions operate on columns of a table and summarize the
 Aggregation functions are common in Sql queries and are used to obtain statistics or data summaries.
 Below are some of the aggregation functions most used. */
 
---! 1. Sum
+--? 1. Sum
 
 /* Calculates the sum of the values in a column. Commonly used with numeric columns. */
 
     Select Sum(numeric_column) From table_name;
 
---! 2. Avg
+--? 2. Avg
 
 /* Calculates the average of the values in a numerical column. */
 
     Select Avg(numeric_column) From table_name;
 
---! 3. Count
+--? 3. Count
 
 /* Counts the number of rows or records in a table. Can be used with or without a column
 specific. */
@@ -25,33 +25,33 @@ specific. */
     Select Count(*) From table_name; -- Count all rows
     Select Count(column) From table_name; -- Count rows with values in column
 
---! 4. Min
+--? 4. Min
 
 /* Returns the minimum value in a column. It is used to find the smallest value in a
 column. */
 
     Select Min(numeric_column) From table_name;
 
---! 5. Max
+--? 5. Max
 
 /* Returns the maximum value in a column. Used to find the largest value in a
 column. */
 
     Select Max(numeric_column) From table_name;
 
---! 6. Sum Distinct
+--? 6. Sum Distinct
 
 /* Similar to Sum, but adds unique values, excluding duplicates. */
 
     Select Sum(Distinct numeric_column) From table_name;
 
---! 7. Count Distinct
+--? 7. Count Distinct
 
 /* Counts unique values in a column, excluding duplicates. */
 
     Select Count(Distinct column) From table_name;
 
---! 8. Group Concat
+--? 8. Group Concat
 
 /* Concatenates the values of a column into a single string, separated by a delimiter. This is common in
 database management systems such as MySql. */

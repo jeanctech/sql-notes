@@ -16,25 +16,25 @@ easier to interact with database management systems (Dbms). */
 -- * Sql is used to perform a wide variety of tasks, including. *
 
 /*
---! 1. Data queries
+--? 1. Data queries
 Retrieve specific information from a database.
 
---! 2. Data Insertion
+--? 2. Data Insertion
 Add new records to a table.
 
---! 3. Data update
+--? 3. Data update
 Modify existing records.
 
---! 4. Deletion of data
+--? 4. Deletion of data
 Delete records from a table.
 
---! 5. Creation of tables and databases
+--? 5. Creation of tables and databases
 Define the data structure.
 
---! 6. Creating indexes and constraints
+--? 6. Creating indexes and constraints
 Improve performance and ensure data integrity.
 
---! 7. Permissions and security management**:
+--? 7. Permissions and security management**:
 Control who can access and modify data.
 */
 

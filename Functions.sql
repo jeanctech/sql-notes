@@ -4,7 +4,7 @@
 database. These functions can be applied to data stored in a table and return a result. Here is a list of
 some of the most common functions in Sql. */
 
---! 1. Aggregation Functions
+--? 1. Aggregation Functions
 
 /*
     - `Sum()`: Sum the values in a column.
@@ -14,7 +14,7 @@ some of the most common functions in Sql. */
     - `Max()`: Finds the maximum value in a column.
 */
 
---! 2. String Functions
+--? 2. String Functions
 
 /*
     - `Concat()`: Combine text strings.
@@ -28,7 +28,7 @@ some of the most common functions in Sql. */
     - `Right()`: Gets a specified number of characters from the end of a string.
 */
 
---! 3. Date and Time Functions
+--? 3. Date and Time Functions
 
 /*
     - `Current_Date`: Returns the current date.
@@ -40,20 +40,20 @@ some of the most common functions in Sql. */
     - `Date_Format()` or `To_Char()`: Formats a date into a string with a specific format.
 */
 
---! 4. Logical Functions
+--? 4. Logical Functions
 
     -- `If()` or `Case`: Evaluates a condition and returns a value based on that condition.
 
---! 5. Conversion Features
+--? 5. Conversion Features
 
     -- `Cast()` or `Convert()`: Converts a value from one data type to another.
 
---! 6. Flow Control Functions
+--? 6. Flow Control Functions
 
     -- `Coalesce()`: Returns the first non-null value in a list of expressions.
     -- `Nullif()`: Compares two values and returns null if they are equal.
 
---! 7. Mathematical
+--? 7. Mathematical
 
 /*
     - `Abs()`: Returns the absolute value of a number.

@@ -5,7 +5,7 @@ A transaction is a set of Sql operations that are executed as an atomic unit, me
 in their entirety or not executed at all. The operations of "commit" and "rollback" are related to
 committing or reverting changes to a transaction. Here is a more detailed explanation of these concepts. */
 
---! 1. Commit
+--? 1. Commit
 
     /*
     - In Sql, commit is the process of permanently applying changes made to
@@ -17,7 +17,7 @@ committing or reverting changes to a transaction. Here is a more detailed explan
 
       Commit;
 
---! 2. Revert (Rollback)
+--? 2. Revert (Rollback)
 
     /* - Rollback is the process of undoing all changes made in a transaction,
     restoring the database to the state before the transaction. This is done in case a

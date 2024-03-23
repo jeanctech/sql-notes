@@ -4,7 +4,7 @@
 Indexes speed up queries by providing an efficient path to access the data instead of having to search the
 entire table. Here you have information fundamental about indexes in relational databases. */
 
---! 1. Types of Indices
+--? 1. Types of Indices
 
 /*
     - **B-Tree Index**: This is the most common type of index in relational databases. Store search keys
@@ -22,7 +22,7 @@ entire table. Here you have information fundamental about indexes in relational 
     combinations of values.
 */
 
---! 2. Advantages of Indices
+--? 2. Advantages of Indices
 
 /*
     - **Improves query performance**: Indexes speed up the search for records, which makes queries faster.
@@ -34,7 +34,7 @@ entire table. Here you have information fundamental about indexes in relational 
     constraints, such as unique keys or foreign keys.
 */
 
---! 3. Disadvantages of Indices
+--? 3. Disadvantages of Indices
 
 /*
     - **Take up disk space**: Each index takes up additional disk space, which can be significant in
@@ -48,7 +48,7 @@ entire table. Here you have information fundamental about indexes in relational 
     pattern of access to data.
 */
 
---! 4. Index Creation and Maintenance
+--? 4. Index Creation and Maintenance
 
 /*
     - Indexes are created using Sql statements, such as `Create Index`.

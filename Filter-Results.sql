@@ -18,7 +18,7 @@ Rows that meet this condition will be included in the result.
 
 -- Below, I present examples of how to filter results in Sql
 
---! Example 1
+--? Example 1
 
 -- Select all employees from the "employees" table whose age is greater than or equal to 30.
 
@@ -26,7 +26,7 @@ Select *
 From employees
 Where age >= 30;
 
---! Example 2
+--? Example 2
 
 -- Select the name and grade of the students from the "students" table that have obtained a grade higher
 -- than 90 on the mathematics exam.
@@ -35,7 +35,7 @@ Select name, rating
 From students
 Where subject = 'Mathematics' And grade > 90;
 
---! Example 3
+--? Example 3
 
 -- Select the products from the "products" table that have a price less than $50 and They are in stock.
 
@@ -43,7 +43,7 @@ Select name, price
 From products
 Where price < 50 And stock > 0;
 
---! Example 4
+--? Example 4
 
 -- Select customers from the "customers" table that have names starting with letter a.
 
